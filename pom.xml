@@ -27,10 +27,10 @@
       <scope>test</scope>
       </dependency>
     <dependency>
-        <groupId>org.jboss.as</groupId>
-    <artifactId>jboss-as-naming</artifactId>
+    <groupId>org.jboss.as.plugins</groupId>
+    <artifactId>jboss-as-maven-plugin</artifactId>
     <version>7.1.0.Final</version>
-      </dependency>
+</dependency>
     
   </dependencies>
 
