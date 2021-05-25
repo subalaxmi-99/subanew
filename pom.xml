@@ -18,6 +18,12 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  <properties>
+    <jboss-as.deploy.hostname>localhost</jboss-as.deploy.localhost>  <!-- Where to deploy. -->
+    <jboss-as.deploy.user>admin</jboss-as.deploy.suba>
+    <jboss-as.deploy.pass>${myproject.deploy.Suba@10701}</jboss-as.deploy.pass>
+    <plugin.war.warName>${project.build.my-app}</plugin.war.warName>
+</properties>
 
   <dependencies>
     <dependency>
@@ -26,14 +32,23 @@
       <version>4.11</version>
       <scope>test</scope>
       </dependency>
-    <dependency>
+    </dependencies>
+    <plugin>
     <groupId>org.jboss.as.plugins</groupId>
     <artifactId>jboss-as-maven-plugin</artifactId>
     <version>7.1.0.Final</version>
-      
-</dependency>
+     <configuration>
+                <force>true</force>
+                <hostname>${jboss-as.deploy.hostname}</hostname>
+                <username>${jboss-as.deploy.user}</username>
+                <password>${jboss-as.deploy.pass.prod}</password>
+                <fileNames>
+                    <fileName>target/${plugin.war.warName}.war</fileName>
+                </fileNames>
+            </configuration>
+     </plugin>
     
-  </dependencies>
+  
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
