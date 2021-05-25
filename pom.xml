@@ -56,7 +56,8 @@
     </dependencies>
   <distributionManagement>
     <repository>
-      <url>http://localhost:8010</url>
+      <name>my-app</name>
+      <url>http://localhost:8010/nexus/content/repositories/my-app/</url>
       </repository>
     </distributionManagement>
  </project>
