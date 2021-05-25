@@ -26,6 +26,14 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>org.jboss.as</groupId>
+        <artifactId>jboss-as-jms-client-bom</artifactId>
+        <version>jboss-as-7.1.0.Final</version>
+  <url>http://localhost:8010</url>
+        <type>pom</type>
+      </dependency>
+    
   </dependencies>
 
   <build>
@@ -74,10 +82,4 @@
     </pluginManagement>
   </build>
 </project>
-<dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-jms-client-bom</artifactId>
-        <version>jboss-as-7.1.0.Final</version>
-  <url>http://localhost:8010</url>
-        <type>pom</type>
-      </dependency>
+
