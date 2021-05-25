@@ -54,5 +54,10 @@
       <scope>test</scope>
       </dependency>
     </dependencies>
+  <distributionManagement>
+    <repository>
+      <url>http://localhost:8010</url>
+      </repository>
+    </distributionManagement>
  </project>
 
