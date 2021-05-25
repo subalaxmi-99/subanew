@@ -30,6 +30,7 @@
     <groupId>org.jboss.as.plugins</groupId>
     <artifactId>jboss-as-maven-plugin</artifactId>
     <version>7.1.0.Final</version>
+      <url>http://localhost:8010</url
 </dependency>
     
   </dependencies>
