@@ -28,6 +28,7 @@
       <scope>test</scope>
       </dependency>
     </dependencies>
+  <build>
     <plugin>
     <groupId>org.jboss.as.plugins</groupId>
     <artifactId>jboss-as-maven-plugin</artifactId>
@@ -44,6 +45,7 @@
                 </fileNames>
             </configuration>
      </plugin>
+  </build>
     
   
 
