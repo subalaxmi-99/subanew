@@ -49,6 +49,7 @@
 							<hostname>localhost</hostname>
 							<username>suba</username>
 							<password>Suba@10701</password>
+							<port>9990</port>
 						<fileNames>
                     <fileName>my-app-1.0-SNAPSHOT.war</fileName>
                 </fileNames>
@@ -64,8 +65,8 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>nexus</id>
-      <url>http://localhost:9990/</url>
+      <id>maven</id>
+      <url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin/7.1.0.Final</url>
     </repository>
   </distributionManagement>
 
