@@ -25,18 +25,36 @@
     <groupId>org.jboss.as.plugins</groupId>
     <artifactId>jboss-as-maven-plugin</artifactId>
     <version>7.1.0.Final</version>
-     <configuration>
-                <force>true</force>
-                <hostname>localhost</hostname>
-                <username>suba</username>
-       <port>8010</port>
-                <password>Suba@10701</password>
-       <goals>
-       <goal>deploy</goal>
-       </goals>
-      
-                <fileNames>
-                    <fileName>target/my-app1.0-SNAPSHOT.war</fileName>
+      <plugin>
+						<groupId>org.jboss.as.plugins</groupId>
+						<artifactId>jboss-as-maven-plugin</artifactId>
+						<version>7.4.Final</version>
+						<executions>
+							<execution>
+								<id>undeploy</id>
+								<phase>clean</phase>
+								<goals>
+									<goal>undeploy</goal>
+								</goals>
+								<configuration>
+									<ignoreMissingDeployment>true</ignoreMissingDeployment>
+								</configuration>
+							</execution>
+							<execution>
+								<id>deploy</id>
+								<phase>install</phase>
+								<goals>
+									<goal>deploy</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+              <force>true</force>
+							<hostname>localhost</hostname>
+							<username>suba</username>
+							<password>Suba@10701</password>
+						<fileNames>
+                    <fileName>my-app1.0-SNAPSHOT.war</fileName>
                 </fileNames>
             </configuration>
      </plugin>
