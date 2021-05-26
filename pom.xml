@@ -45,14 +45,10 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-    <repository>
-      <id>jboss.org</id>
-      <url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin/7.1.0.Final</url>
-        <layout>default</layout>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
 </distributionManagement>
   
 
