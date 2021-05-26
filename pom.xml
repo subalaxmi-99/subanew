@@ -46,7 +46,7 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>maven</id>
+      <id>maven-li</id>
       <url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin/7.1.0.Final</url>
         <layout>default</layout>
         <snapshots>
