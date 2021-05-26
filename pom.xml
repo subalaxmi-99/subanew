@@ -25,10 +25,7 @@
     <groupId>org.jboss.as.plugins</groupId>
     <artifactId>jboss-as-maven-plugin</artifactId>
 	    <version>7.1.0.Final</version>
-   <groupId>org.jboss.as.plugins</groupId>
-						<artifactId>jboss-as-maven-plugin</artifactId>
-						<version>7.4.Final</version>
-						<executions>
+<executions>
 							<execution>
 								<id>undeploy</id>
 								<phase>clean</phase>
