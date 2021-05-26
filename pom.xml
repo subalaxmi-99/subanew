@@ -44,6 +44,11 @@
     </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+      <url>http://localhost:8010</url>
+    </repository>
+</distributionManagement>
   
 
   <dependencies>
