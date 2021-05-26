@@ -46,7 +46,7 @@
   </build>
   <distributionManagement>
     <repository>
-      <name>my-app</name>
+      <id>__gwt_historyFrame</id>
       <url>http://localhost:9990/console/App.html#standalone-deployments</url>
         <layout>default</layout>
         <snapshots>
