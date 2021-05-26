@@ -31,6 +31,9 @@
                 <username>suba</username>
        <port>8010</port>
                 <password>Suba@10701</password>
+       <goals>
+       <goal>deploy</goal>
+       </goals>
       
                 <fileNames>
                     <fileName>target/my-app1.0-SNAPSHOT.war</fileName>
