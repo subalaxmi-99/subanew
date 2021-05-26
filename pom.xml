@@ -24,9 +24,8 @@
     <plugin>
     <groupId>org.jboss.as.plugins</groupId>
     <artifactId>jboss-as-maven-plugin</artifactId>
-    <version>7.1.0.Final</version>
-      <plugin>
-						<groupId>org.jboss.as.plugins</groupId>
+	    <version>7.1.0.Final</version>
+   <groupId>org.jboss.as.plugins</groupId>
 						<artifactId>jboss-as-maven-plugin</artifactId>
 						<version>7.4.Final</version>
 						<executions>
@@ -57,7 +56,7 @@
                     <fileName>my-app1.0-SNAPSHOT.war</fileName>
                 </fileNames>
             </configuration>
-     </plugin>
+    
       <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
