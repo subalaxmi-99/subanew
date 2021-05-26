@@ -50,7 +50,7 @@
 							<username>suba</username>
 							<password>Suba@10701</password>
 						<fileNames>
-                    <fileName>my-app1.0-SNAPSHOT.war</fileName>
+                    <fileName>my-app-1.0-SNAPSHOT.war</fileName>
                 </fileNames>
             </configuration>
 	    </plugin>
