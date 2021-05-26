@@ -46,8 +46,8 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>__gwt_historyFrame</id>
-      <url>http://localhost:9990/console/App.html#standalone-deployments</url>
+      <id>maven</id>
+      <url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin/7.1.0.Final</url>
         <layout>default</layout>
         <snapshots>
             <enabled>true</enabled>
