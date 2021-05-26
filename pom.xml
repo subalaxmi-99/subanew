@@ -53,6 +53,7 @@
                     <fileName>my-app1.0-SNAPSHOT.war</fileName>
                 </fileNames>
             </configuration>
+	    </plugin>
     
       <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
