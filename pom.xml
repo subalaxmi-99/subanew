@@ -65,11 +65,14 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-    <repository>
-      <id>maven</id>
-      <url>https://repo1.maven.org/maven2/</url>
-    </repository>
-  </distributionManagement>
+<repository>
+<id>jboss-as-maven-plugin/</id>
+<name>jboss-as-maven-plugin</name>
+<url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin/7.1.0.Final</url>
+<layout>default</layout>
+</repository>
+</distributionManagement>
+</project>
 
   <dependencies>
     <dependency>
