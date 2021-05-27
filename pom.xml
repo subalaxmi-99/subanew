@@ -74,6 +74,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <username>suba</username>
 <password>Suba@10701</password>
 <port>9999</port>
+ <serverConfig>standalone.xml</serverConfig>
 <fileNames>
 <fileName>my-app-1.0.war</fileName>
 </fileNames>
