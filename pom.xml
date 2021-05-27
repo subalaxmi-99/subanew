@@ -50,7 +50,6 @@
 							<username>suba</username>
 							<password>Suba@10701</password>
 							<port>9999</port>
-							<timeout>30000</timeout>
 						<fileNames>
                     <fileName>my-app-1.0-SNAPSHOT.war</fileName>
                 </fileNames>
@@ -72,8 +71,6 @@
 <layout>default</layout>
 </repository>
 </distributionManagement>
-</project>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
