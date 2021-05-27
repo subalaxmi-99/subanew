@@ -17,7 +17,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 <distributionManagement>
 <repository>
-<id>jboss-as-maven-plugin/</id>
+<id>jboss-as-maven-plugin</id>
 <name>jboss-as-maven-plugin</name>
 <url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin</url>
 <layout>default</layout>
