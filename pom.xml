@@ -78,7 +78,7 @@
                             <password>Suba@10701</password>
                             <port>9999</port>
                         <fileNames>
-                    <fileName>my-app-1.0-SNAPSHOT.war</fileName>
+                    <fileName>myapp.war</fileName>
                 </fileNames>
             </configuration>
         </plugin>
